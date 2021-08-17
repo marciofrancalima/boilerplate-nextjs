@@ -9,7 +9,8 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Boilerplate by <a href="https://marciofrancalima.com.br">Márcio França Lima</a>
+          Boilerplate by{' '}
+          <a href="https://marciofrancalima.com.br">Márcio França Lima</a>
         </p>
       </main>
     </div>
