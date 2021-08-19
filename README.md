@@ -16,14 +16,49 @@ Create a new Next.js project based on this boilerplate:
 
 Fill in the requested information and finally install the dependencies.
 
+Go to the project directory
+
 ```bash
-  cd my-project-name
+  cd my-project
+```
+
+Install dependencies
+
+```bash
   yarn install
 ```
 
-## Authors
+Start the server
 
-- [@marciofrancalima](https://github.com/marciofrancalima)
+```bash
+  yarn dev
+```
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  yarn test
+```
+or
+```bash
+  yarn test:watch
+```
+
+## Plop generator
+
+If you want, you can generate components via Plop based on the templates (`generators/templates`):
+
+```bash
+  yarn generate
+```
+
+These files are generated in `src/components/ComponentName` directory: `index.tsx`, `styles.ts` and `test.tsx`.
+
+The `plopfile.js` file is in the `generators` directory.
+
+[Plop Generator Doc](https://plopjs.com/)
 
 ---
 
